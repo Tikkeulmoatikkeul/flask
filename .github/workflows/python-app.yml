@@ -20,8 +20,8 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: epsilon99/github-action
-        tags: v3, latest
+        image: epsilon99/github-actions-app
+        tags: ${{ github.sha }}, v1.0.0.0
         registry: docker.io
         username: epsilon99
         password: dckr_pat_SMiOCaQm9SvAMT2ZNzQ3MdseBQI

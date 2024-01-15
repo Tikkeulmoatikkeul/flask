@@ -24,4 +24,4 @@ jobs:
         tags: v3, latest
         registry: docker.io
         username: epsilon99
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: dckr_pat_SMiOCaQm9SvAMT2ZNzQ3MdseBQI
